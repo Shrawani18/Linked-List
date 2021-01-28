@@ -24,15 +24,6 @@ class SLinkedList:
         while printval is not None:
             print (printval.dataval)
             printval = printval.nextval
-            
-     def RemoveNode(self, Removekey):
-        HeadVal = self.head
-
-        if (HeadVal is not None):
-            if (HeadVal.data == Removekey):
-                self.head = HeadVal.next
-                HeadVal = None
-                return
 
 
 list = SLinkedList()
